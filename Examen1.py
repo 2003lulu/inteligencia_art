@@ -85,7 +85,8 @@ def ejercicio_2():
 
 def ejercicio_3():
     numero = int(input("Introduce un número: "))
-     numero % 2 == 0:
+    
+    if numero % 2 == 0:
         print(f"El número {numero} es par.")
     else:
         print(f"El número {numero} es impar.")
